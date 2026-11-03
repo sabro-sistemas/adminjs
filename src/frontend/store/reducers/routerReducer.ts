@@ -12,7 +12,7 @@ export const routerReducer = (
     type: typeof INITIAL_ROUTE | typeof ROUTE_CHANGED
     data: any
   },
-) => {
+): RouterInState => {
   switch (action.type) {
   case INITIAL_ROUTE:
     return {
